@@ -34,10 +34,25 @@
 # n = list(map(len, names))
 # print(n)
 
+# 5. Sonlar ro‘yxatida `map()` yordamida
+# manfiy sonlarni musbatga aylantiring (`abs` ishlatilmasin).
+#
+# l = [2, -6, 8, 6, -56, 21, -53, 57]
+#
+# musbat = list(map(lambda i: i * -1 if i < 0 else i, l))
+#
+# print(musbat)
 
+# 6. Narxlar ro‘yxati berilgan.
+# `map()` orqali har bir narxga 15% qo‘shilgan holatini hisoblang.
 
+# prices = [4500, 6500, 10000, 7800, 1000]
+#
+# new_prices = list(map(lambda i: (i * 0.15) + i, prices))
+#
+# print(new_prices)
 
-
+# 7. 
 
 
 
